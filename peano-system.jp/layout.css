@@ -1,0 +1,353 @@
+/*
+Theme Name: web
+Theme URI: http://www.istyle.info
+Description: theme by istyle
+Version: 1
+Author: Jun
+Author URI: http://www.istyle.info
+*/
+/*----------------------------------------------------
+共通エリア
+	header, gnavi, footer, mainimg, pankuzu, pagenation, link, go_to_top
+---------------------------------------------------- */
+@charset "utf-8";
+html, body {height: 100%;}
+body {
+	min-width: 320px;
+	background: #fff;	
+	font-family: "游明朝","ヒラギノ明朝 ProN W3", "HiraMinProN-W3", "HG明朝E";
+	/*font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro, "ＭＳ Ｐゴシック", sans-serif;*/
+	-webkit-text-size-adjust: 100%;/*iPhone横向き時_文字自動調整されない*/
+	/*word-break: break-all;*/
+	word-wrap:break-word;
+	color: #222;
+	font-size: 62.5%;
+}
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+p {
+	font-size: 1.8em;
+	line-height: 1.6;
+}
+
+/*----------------------------------------------------
+Link
+---------------------------------------------------- */
+a {text-decoration: underline; color: #1546C3;}
+a:hover {text-decoration: none; color: #ccc;}
+
+
+/*----------------------------------------------------
+Header
+---------------------------------------------------- */
+.header {
+	width: 96%;
+	margin: 0 auto 30px;
+	padding: 5px 0;
+	background: #fff;
+	text-align: center;
+}
+.header_logo {
+	display: block;	
+	height: 50px;
+	margin-bottom: 20px;
+	text-decoration: none;
+	text-align: left;
+}
+.tit_h1 {
+	position: relative;
+	padding-left: 20px; 
+	font-size: 1.4em;
+	color: #333;
+	line-height: 1.0;
+}
+.header_info {
+	text-align: left;
+}
+.tel-link {
+	margin-right: 20px;
+	font-size: 2.0em;
+}
+/*----------------------------------------------------
+Main Navi
+---------------------------------------------------- */
+.mainNavBtn {
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 110;
+	opacity:0.7;
+	filter:alpha(opacity=70);
+	-ms-filter: "alpha( opacity=70 )";
+	cursor: pointer;
+}
+.mainNav {
+	display: none;
+	position: fixed;
+	top: 50px;
+	left: 0;
+	width: 100%;
+	margin: 0 0 10px;
+	z-index: 105;
+}
+.mainNav_item {
+	float: left;
+	width: 50%;
+	padding: 10px 0;
+	background: #fff;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	font-size: 1.4em;
+	text-align: center;
+}
+.mainNav_item:nth-child(2n) {
+	border-right: none;
+}
+.mainNav_item:first-child, .mainNav_item:nth-child(2) {
+	border-top: 1px solid #ccc;
+}
+.mainNav_item span {
+	display: none;
+}
+.mainNav_link {
+	display: block;
+	color: #222;
+	text-decoration: none;
+}
+
+
+/*----------------------------------------------------
+footer
+---------------------------------------------------- */
+.ft {
+	clear: both;
+	width: 100%;
+	background: rgba(149, 170, 170, 0.2);
+}
+.ftIn {
+	width: 96%;
+	margin: 0 auto;
+	padding: 40px 0 20px;
+	text-align: left;
+}
+.ftIn_logo {
+	margin-bottom: 30px;
+	text-align: center;
+}
+.ftIn_ico {
+	margin-bottom: 20px;
+	text-align: center;
+}
+.ftIn_bd {
+	width: 96%;
+	margin: 0 auto;
+}
+.ftitem {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+.ftitem a {
+	display: block;
+	padding: 8px;
+	font-size: 1.5em;
+	text-decoration: none;
+	color: #222;
+}
+.ftitem a:hover {
+	background: #fff;
+}
+/*----------------------------------------------------
+mainImg cont
+---------------------------------------------------- */
+.mainImg, .cont, .cont-col {
+	text-align: center;
+}
+
+.cont-col {
+	background: rgba(149, 170, 170, 0.1);
+}
+.contIn {
+	margin: 0 auto;
+	padding: 60px 0;
+	text-align: left;
+}
+/*----------------------------------------------------
+トップに戻る
+---------------------------------------------------- */
+#areaPagetop {
+	display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+/*----------------------------------------------------
+パンクズ
+---------------------------------------------------- */
+.bread {
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+.bread a {
+	color: #444;
+	font-size: 1.3em;
+}
+
+
+
+/* PC・タブレット用 769px以上　レイアウト
+------------------------------------------------------------*/
+@media only screen and (min-width: 769px){
+	/*----------------------------------------------------
+	header
+	---------------------------------------------------- */
+	.header {
+		margin: 0 auto 5px;
+		padding: 15px 0 10px;
+	}
+	.headerFixed {
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 110;
+	}
+	.headerIn {
+		position: relative;
+		width: 1000px;
+		height: 60px;
+		margin: 0 auto;
+	}
+	.tit_h1 {
+		font-size: 1.4em;
+	}
+	.header_logo {
+		float: left;
+		width: 400px;
+		margin: 0;
+		padding: 0;
+	}
+	.header_info {
+		display: block;
+		float: right;
+		width: 240px;
+	}
+
+	/*----------------------------------------------------
+	Main Navi
+	---------------------------------------------------- */
+	.mainNavBtn {
+		display: none;
+	}
+	.mainNav {
+		clear: both;
+		position: static;
+		display: block;
+		width: 100%;
+		background: #fff;	
+	}
+	.mainNav_list {
+		width: 1000px;
+		margin: 0 auto 10px;
+	}
+	.mainNav_item {
+		position: relative;
+		width: 172px;
+		height: 40px;
+		padding: 0;
+		background: #fff;
+		border-right: 1px solid #ccc;
+		border-bottom: none;
+		font-size: 1.5em;
+		text-align: center;
+	}
+	.mainNav_item span {
+		display: block;
+	}
+	.mainNav_item:first-child, .mainNav_item:nth-child(2n) {
+		border-top: none;
+		border-right: 1px solid #ccc;
+	}
+	.mainNav_item:first-child {
+		border-left: 1px solid #ccc;
+	}
+	.mainNav_item-home {
+		width: 140px;
+		height: 40px;
+		color: #009A59;
+	}
+	.mainNavFixed {
+		position: fixed;
+		top: 0;
+		z-index: 1000;
+		padding: 15px 0;
+		transition: .5s ease;
+	}
+	/*----------------------------------------------------
+	ヘッダー画像
+	---------------------------------------------------- */
+	.img100 {
+		/*width: 1000px;*/
+	}
+	/*----------------------------------------------------
+	footer
+	---------------------------------------------------- */
+	.ft {
+	}
+	.ftIn {
+		width: 1000px;
+		margin: 0 auto;
+		padding: 80px 0 20px;
+	}
+	.ftIn_logo {
+		float: left;
+	}
+	.ftIn_ico {
+		float: right;
+	}
+	.ftIn_bd {
+		width: 1000px;
+		margin: 30px auto 60px;
+	}
+	.ftitem {
+		width: auto;
+		margin-right: 15px;
+	}
+	.ftitem a {
+		padding: 8px 20px;
+		font-size: 1.6em;
+		color: #000;
+	}
+	/*----------------------------------------------------
+	パンクズ
+	---------------------------------------------------- */
+	.bread {
+		/*position: static;*/
+		width: 1000px;
+		margin: 0 auto;
+	}
+	.breadlink, .bread {
+		margin: 0 8px;
+		font-size: 1.5em;
+	}
+
+	/*----------------------------------------------------
+	cont
+	---------------------------------------------------- */
+	.cont-col {
+		
+	}
+	.contIn {
+		width: 1000px;
+		margin: 0 auto;
+		padding: 100px 0;
+	}
+	
+}
