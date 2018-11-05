@@ -15,161 +15,170 @@ Author URI: http://www.istyle.info
 main
 ---------------------------------------------------- */
 .main {
-	width: 96%;
-	margin: 0 auto;
+    width: 96%;
+    margin: 0 auto;
 }
 
 /*----------------------------------------------------
 box model
 ---------------------------------------------------- */
 .box {
-	margin: 30px auto;
+    margin: 30px auto;
 }
 .box_col {
-	padding: 20px;
-	background: #faf2f4;
+    padding: 20px;
+    background: #faf2f4;
 }
 /*-- 2分割 --*/
 .box_20 {
-	margin: 0 0 40px 0;
+    margin: 0 0 40px 0;
 }
 .box_hd {
-	padding: 10px 10px;
-	text-align: center;
+    padding: 10px 10px;
+    text-align: center;
 }
 .box_hd-col01, .box_hd-col02 {
-	background: #ac002c;
+    background: #ac002c;
 }
 .box_hd-col02 {
-	background: #003264;
+    background: #003264;
 }
 .box_bd {
-	padding: 30px 20px;
+    padding: 30px 20px;
 }
 .box_bd-col01 {
-	background: rgba(172, 0, 0, 0.18);
+    background: rgba(172, 0, 0, 0.18);
 }
 .box_bd-col02 {
-	background: rgba(0, 50, 50, 0.18);
+    background: rgba(0, 50, 50, 0.18);
 }
 
 /*-- 3分割 --*/
 .box_30 {
-	float: left;
-	display: block;
-	width: 33.33%;
-	margin: 0 0 20px 0;
+    float: left;
+    display: block;
+    width: 33.33%;
+    margin: 0 0 20px 0;
 }
 
 /*----
 新着情報, イベント予定
 ----*/
 .news_list {
-	width: 100%;
-	margin: 30px auto 0; 
-	padding: 10px;
+    width: 100%;
+    margin: 15px auto 0;
+    padding: 10px;
 }
 .news_item {
-	padding-bottom: 10px;
-	margin-bottom: 15px; 
-	border-bottom: 1px solid #333;
+    padding: 15px 0;
+    border-bottom: 1px solid #333;
+}
+.news_item:first-child {
+    border-top: 1px solid #333;
 }
 .news_link {
-	text-decoration: none;
-	font-size: 1.5em;
-	color: #333;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #333;
 }
 .news_link:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 .news_date {
-	margin-right: 10px;
+    margin-right: 10px;
 }
 .news_tit {
 }
 .news_cate {
-	margin-left: 15px;
-	padding: 2px 8px;
-	border: 1px solid #ccc;
-	font-size: 80%;
+    margin-left: 15px;
+    padding: 2px 8px;
+    border: 1px solid #ccc;
+    font-size: 80%;
 }
 .news_item02 {
-	margin: 25px 0;
-	text-align: center;
+    margin: 25px 0;
+    text-align: center;
 }
 .news_item02 a {
-	text-decoration: none;
-	font-size: 1.8em;
-	color: #333;
+    text-decoration: none;
+    font-size: 1.8em;
+    color: #333;
 }
 .news_item02 a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 /*----------------------------------------------------
 text関連
 ---------------------------------------------------- */
 /*---- text h ----*/
 .tit_h2 {
-	text-align: center;
-	line-height: 2.0;
-	font-size: 1.8em;
-	font-weight: bold;
+    text-align: center;
+    line-height: 2.0;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+.tit_h2 span:first-child {
+    color: #999;
+}
+.tit_h2 hr {
+    width: 8em;
+    border: 1px solid #AC002C;
 }
 .tit_h3 {
-	color: #333;
-	font-size: 2.5em;
+    color: #333;
+    font-size: 2.5em;
 }
 .tit_h4 {
-	text-align: center;
-	font-weight: bold;
+    text-align: center;
+    font-weight: bold;
 }
 
 .tit_top01 {
-	color: #fff;
-	font-size: 2.0em;
+    color: #fff;
+    font-size: 2.0em;
 }
 .tit_top02, .tit_top02-col02{
-	margin-bottom: 10px;
-	font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro, "ＭＳ Ｐゴシック", sans-serif;
-	color: #000;
-	font-size: 1.8em;
+    margin-bottom: 10px;
+    font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro, "ＭＳ Ｐゴシック", sans-serif;
+    color: #000;
+    font-size: 1.8em;
 }
 .tit_top02:before {
-	content: "■";
-	color: #ac002c;
+    content: "■";
+    color: #ac002c;
 }
 .tit_top02-col02:before {
-	content: "■";
-	color: #003264;
+    content: "■";
+    color: #003264;
 }
 .tit_top03 {
-	margin: 30px;
-	text-align: center;
-	color: #003264;
-	font-size: 2.0em;
-	font-weight: bold;
+    margin: 30px;
+    text-align: center;
+    color: #003264;
+    font-size: 2.0em;
+    font-weight: bold;
 }
 .txt_num {
-	padding-right: 7px;
-	color: #003264;
-	font-size: 3.0em;
-	font-style: italic;
-	vertical-align: -0.4em;
+    padding-right: 7px;
+    color: #003264;
+    font-size: 3.0em;
+    font-style: italic;
+    vertical-align: -0.4em;
 }
 .txt_num02 {
-	padding-right: 15px;
-	color: #003264;
-	font-size: 3.8em;
-	font-style: italic;
-	vertical-align: -0.2em;
+    padding-right: 15px;
+    color: #003264;
+    font-size: 3.8em;
+    font-style: italic;
+    vertical-align: -0.2em;
 }
 .txt_uline {
-	padding-bottom: 10px;
-	border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
 }
 
 .txt_horiz {
-	margin: 15px 0;
+    margin: 15px 0;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -201,62 +210,62 @@ text関連
 }
 
 .txt_st {
-	margin: 25px auto;
-	font-size: 2.4em;
-	color: #003264;
-	font-weight: bold;
+    margin: 25px auto;
+    font-size: 2.4em;
+    color: #003264;
+    font-weight: bold;
 }
 .txt_back-g {
-	padding: 5px 15px;
-	background: #f4f6f6;
+    padding: 5px 15px;
+    background: #f4f6f6;
 }
 /*---- text width size ----*/
 .txt_20 {
-	font-size: 2.0em;
+    font-size: 2.0em;
 }
 .txt_w90 {
-	width: 90%;
-	margin: auto;
+    width: 90%;
+    margin: auto;
 }
 
 /*----------------------------------------------------
 btn
 ---------------------------------------------------- */
 .btn {
-	display: inline-block;
-	min-width: 290px;
-	margin: 20px 0;
-	padding: 10px 15px;
-	border: 2px solid #009A59;
-	font-size: 2.6em;
-	color: #009A59;
-	text-decoration: none;
-	text-align: center;
+    display: inline-block;
+    min-width: 290px;
+    margin: 20px 0;
+    padding: 10px 15px;
+    border: 2px solid #009A59;
+    font-size: 2.6em;
+    color: #009A59;
+    text-decoration: none;
+    text-align: center;
 }
 .btn::after {
-	content: '>';
-	padding-left: 10px; 
+    content: '>';
+    padding-left: 10px;
 }
 
 .btn_more {
-	display: block;
-	width: 90px;
-	height: 90px;
-	margin: 15px auto;
-	background: rgba(0, 50, 100, 1);
-	border-radius: 50%;
-	-moz-border-radius: 50%;
-	-webkit-border-radius: 50%;
-	line-height: 85px;
-	color: #fff;
-	text-align: center;
-	font-weight: bold;
-	font-size: 1.8em;
-	text-decoration: none;
+    display: block;
+    width: 90px;
+    height: 90px;
+    margin: 15px auto;
+    background: rgba(0, 50, 100, 1);
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    line-height: 85px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8em;
+    text-decoration: none;
 }
 .btn_more:hover {
-	background: rgba(0, 50, 100, 0.7);
-	text-decoration: underline;
+    background: rgba(0, 50, 100, 0.7);
+    text-decoration: underline;
 }
 
 
@@ -264,85 +273,85 @@ btn
 ------------------------------------------------------------*/
 @media only screen and (min-width: 769px){
 
-	/*----------------------------------------------------
-	main
-	---------------------------------------------------- */
-	.main {
-		width: auto;
-	}
+    /*----------------------------------------------------
+    main
+    ---------------------------------------------------- */
+    .main {
+        width: auto;
+    }
 
-	/*----------------------------------------------------
-	box model
-	---------------------------------------------------- */
-	.box_col {
-		padding: 30px 80px;
-	}
-	.box-w600 {
-		width: 600px;
-	}
-	.box-w800 {
-		margin: 30px auto;
-		width: 800px;
-	}
-	/*-- 2分割 --*/
-	.box_20 {
-		float: left;
-		display: block;
-		width: 50%;
-		margin: 0 0 20px 0;
-	}
-	.box_bd {
-		padding: 30px 50px;
-	}
+    /*----------------------------------------------------
+    box model
+    ---------------------------------------------------- */
+    .box_col {
+        padding: 30px 80px;
+    }
+    .box-w600 {
+        width: 600px;
+    }
+    .box-w800 {
+        margin: 30px auto;
+        width: 800px;
+    }
+    /*-- 2分割 --*/
+    .box_20 {
+        float: left;
+        display: block;
+        width: 50%;
+        margin: 0 0 20px 0;
+    }
+    .box_bd {
+        padding: 30px 50px;
+    }
 
-	.box21 {
-		float: left;
-		display: block;
-		width: 48%;
-		margin: 0 4% 20px 0;
-	}
-	.box21:nth-child(2n) {
-		margin-right: 0;
-	}
+    .box21 {
+        float: left;
+        display: block;
+        width: 48%;
+        margin: 0 4% 20px 0;
+    }
+    .box21:nth-child(2n) {
+        margin-right: 0;
+    }
 
-	/*-- 3分割 --*/
-	.box32 {
-		width: 32%;
-		margin-right: 2%;
-	}
-	.box32:nth-child(2n) {
-		margin-right: 2%;
-	}
-	.box32:nth-child(3n) {
-		margin-right: 0;
-	}
+    /*-- 3分割 --*/
+    .box32 {
+        width: 32%;
+        margin-right: 2%;
+    }
+    .box32:nth-child(2n) {
+        margin-right: 2%;
+    }
+    .box32:nth-child(3n) {
+        margin-right: 0;
+    }
 
-	/*----------------------------------------------------
-	text関連
-	---------------------------------------------------- */
-	/*---- text ----*/
-	.tit_h3 {
-		position: relative;
-		margin-left: -50px;
-	}
-	/*----------------------------------------------------
-	feature
-	---------------------------------------------------- */
-	/*-- back english words --*/
-	.ft_sec01, .ft_sec02, .ft_sec03 {
-		position: relative;
-		left: -50px;
-		min-height: 300px;
-		background: url(img/feature/img_feature_txt03.png) no-repeat 0 0;
-	}
-	.ft_sec02 {
-		background: url(img/feature/img_feature_txt04.png) no-repeat 0 0;
-	}
-	.ft_sec03 {
-		background: url(img/feature/img_feature_txt05.png) no-repeat 0 0;
-	}
-	.ft_sec_re {
-		position: relative;
-		left: 50px;
-	}
+    /*----------------------------------------------------
+    text関連
+    ---------------------------------------------------- */
+    /*---- text ----*/
+    .tit_h3 {
+        position: relative;
+        margin-left: -50px;
+    }
+    /*----------------------------------------------------
+    feature
+    ---------------------------------------------------- */
+    /*-- back english words --*/
+    .ft_sec01, .ft_sec02, .ft_sec03 {
+        position: relative;
+        left: -50px;
+        min-height: 300px;
+        background: url(img/feature/img_feature_txt03.png) no-repeat 0 0;
+    }
+    .ft_sec02 {
+        background: url(img/feature/img_feature_txt04.png) no-repeat 0 0;
+    }
+    .ft_sec03 {
+        background: url(img/feature/img_feature_txt05.png) no-repeat 0 0;
+    }
+    .ft_sec_re {
+        position: relative;
+        left: 50px;
+    }
 }
