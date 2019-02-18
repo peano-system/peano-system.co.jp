@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="253.90607mm"
+   height="297.63165mm"
+   viewBox="0 0 253.90607 297.63165"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="img_work_02.svg">
+  <defs
+     id="defs2">
+    <clipPath
+       id="clipEmfPath1"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path4540"
+         d="M 0,0 H 77.12126 V 76.119685 H 0 Z"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <pattern
+       y="0"
+       x="0"
+       height="6"
+       width="6"
+       patternUnits="userSpaceOnUse"
+       id="EMFhbasepattern" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="250.31288"
+     inkscape:cy="564.68926"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="レイヤー 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(22.049656,13.632251)">
+    <rect
+       style="fill:#fbfbfb;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect4505"
+       width="253.90604"
+       height="98.194901"
+       x="-22.049625"
+       y="-13.632251" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       x="2.0046322"
+       y="15.607115"
+       id="text4509"><tspan
+         sodipodi:role="line"
+         id="tspan4507"
+         x="2.0046322"
+         y="15.607115"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#333333;stroke-width:0.26458332;">大量の文章入力として単語にベクトルを割り当てるアルゴリズム</tspan><tspan
+         sodipodi:role="line"
+         x="2.0046322"
+         y="22.136547"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#333333;stroke-width:0.26458332;"
+         id="tspan4511">文章に登場する文脈が近い単語には近いベクトルが割り当てられる</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="10.022718"
+       y="56.232082"
+       id="text4515"><tspan
+         sodipodi:role="line"
+         id="tspan4513"
+         x="10.022718"
+         y="65.887581"
+         style="stroke-width:0.26458332" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       x="33.408768"
+       y="35.041496"
+       id="text4509-2"><tspan
+         sodipodi:role="line"
+         id="tspan4507-0"
+         x="33.408768"
+         y="39.547394"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#333333;stroke-width:0.26458332;" /><tspan
+         sodipodi:role="line"
+         x="33.408768"
+         y="46.076828"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#333333;stroke-width:0.26458332;"
+         id="tspan4511-0">今日はとても良い天気で...</tspan></text>
+    <image
+       y="11.70102"
+       x="139.94241"
+       id="image4569"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAaAAAAGyCAYAAACiKBDJAAAABHNCSVQICAgIfAhkiAAAEDtJREFU eJzt3T9slGeewPHnfT1juTmL0qW3o7tsdThAdiwG5OtIsbqlWqh2U+0wBp22cyp0SjBOlaNyUnmL SEZKcSiYHSs2mHJLipUu3dFt5DQre/w+VwRn2Sxkje2Z3/z5fLoY4vkVSF89z++dmZQAAAAAAAAA AAAAAAAAAAAAAAAAAAAYP41W50z0DMB4KKMHYHA0ljpTtYl6p7HUmYqeBRh9AsQParv136ac3qnt 1n8bPQsw+oroARgMjaXOVG23/r8ppZmU0ovu9P7PNpfm/xo9FzC6nIBIKb08/Xwfn5RSmnEKAnrN CYgfn34OOQUBPeUExI9PP4ecgoCecgIac284/RxyCgJ6xglozL3h9HPIKQjoGSegMfZPTj+HnIKA nnACGmP/5PRzyCkI6AknoDF1xNPPIacg4NQ5AY2pI55+DjkFAdBbzfZ2jp4BGA9OQACEECAAQggQ ACEECIAQAgRACAECIIQAARBCgAAIIUAAhBAgAEIIEAAhBAiAEAIEQAgBAiCEAAEQQoAACCFAAIQQ IABCCBAAIQQIgBACBEAIAQIghAABEEKAAAghQACEECAAQggQACEECIAQAgRACAECIIQAARBCgAAI IUAAhBAgAEIIEAAhBAiAEAIEQAgBAiCEAAEQQoAACCFAAIQQIABCCBAAIQQIgBACBEAIAQIghAAB EEKAAAghQACEECAAQggQACEECIAQAgRACAECIIQAARBCgAAIIUAAhBAgAEIIEAAhBAiAEAIEQAgB AiCEAAEQQoAACCFAAIQQIABCCBAAIQQIgBACBEAIAQIghAABEEKAAAghQACEECAAQggQACEECIAQ AgRACAECIIQAARBCgAAIIUAAhBAgAEIIEAAhBAiAEAIEQAgBAiCEAAEQQoAACCFAAIQQIABCCBAA IQQIgBACBEAIAQIghAABEEKAAAghQACEECAAQggQACEECIAQAgRACAECIIQAARBCgAAIIUAAhBAg AEIIEAAhBAiAEAIEQAgBAiCEAAEQQoAACCFAAIQQIABCCBAAIQQIgBACBEAIAQIghAABEEKAAAgh QACEECAAQggQACEECIAQAgRACAECIIQAARBCgAAIIUAAhBAgAEIIEAAhBAiAEAIEQAgBAiCEAAEQ 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 AABJRU5ErkJggg== "
+       preserveAspectRatio="none"
+       height="64.047958"
+       width="71.579865" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       x="182.92664"
+       y="48.562412"
+       id="text4509-2-4"><tspan
+         sodipodi:role="line"
+         x="182.92664"
+         y="48.562412"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#333333;stroke-width:0.26458332;"
+         id="tspan4511-0-7">天気</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       x="147.11252"
+       y="36.802555"
+       id="text4509-2-6"><tspan
+         sodipodi:role="line"
+         id="tspan4507-0-2"
+         x="147.11252"
+         y="41.308453"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#333333;stroke-width:0.26458332;" /><tspan
+         sodipodi:role="line"
+         x="147.11252"
+         y="47.837887"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#333333;stroke-width:0.26458332;"
+         id="tspan4511-0-5">良い</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       x="170.63223"
+       y="56.045959"
+       id="text4509-2-69"><tspan
+         sodipodi:role="line"
+         id="tspan4507-0-5"
+         x="170.63223"
+         y="60.551857"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#333333;stroke-width:0.26458332;" /><tspan
+         sodipodi:role="line"
+         x="170.63223"
+         y="67.081291"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#333333;stroke-width:0.26458332;"
+         id="tspan4511-0-2">とても</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       x="173.83946"
+       y="14.886452"
+       id="text4509-2-7"><tspan
+         sodipodi:role="line"
+         id="tspan4507-0-90"
+         x="173.83946"
+         y="19.392349"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#333333;stroke-width:0.26458332;" /><tspan
+         sodipodi:role="line"
+         x="173.83946"
+         y="25.921782"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#333333;stroke-width:0.26458332;"
+         id="tspan4511-0-51">今日</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4635"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,-22.049625,-13.097712)"><flowRegion
+         id="flowRegion4637"><rect
+           id="rect4639"
+           width="252.53813"
+           height="153.54318"
+           x="-111.11678"
+           y="561.039" /></flowRegion><flowPara
+         id="flowPara4641" /></flowRoot>    <path
+       style="fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.07715169;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       id="path4643"
+       sodipodi:type="arc"
+       sodipodi:cx="172.78986"
+       sodipodi:cy="27.634256"
+       sodipodi:rx="1.3363476"
+       sodipodi:ry="1.3363477"
+       sodipodi:start="0"
+       sodipodi:end="6.2718232"
+       sodipodi:open="true"
+       d="m 174.1262,27.634256 a 1.3363476,1.3363477 0 0 1 -1.33255,1.336343 1.3363476,1.3363477 0 0 1 -1.34012,-1.328751 1.3363476,1.3363477 0 0 1 1.32494,-1.343891 1.3363476,1.3363477 0 0 1 1.34765,1.321116" />
+    <path
+       style="fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.07715169;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       id="path4643-2"
+       sodipodi:type="arc"
+       sodipodi:cx="180.5407"
+       sodipodi:cy="49.817604"
+       sodipodi:rx="1.3363476"
+       sodipodi:ry="1.3363477"
+       sodipodi:start="0"
+       sodipodi:end="6.2718232"
+       sodipodi:open="true"
+       d="m 181.87704,49.817604 a 1.3363476,1.3363477 0 0 1 -1.33255,1.336342 1.3363476,1.3363477 0 0 1 -1.34012,-1.32875 1.3363476,1.3363477 0 0 1 1.32494,-1.343891 1.3363476,1.3363477 0 0 1 1.34765,1.321116" />
+    <path
+       style="fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.07715169;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       id="path4643-9"
+       sodipodi:type="arc"
+       sodipodi:cx="170.38443"
+       sodipodi:cy="60.508385"
+       sodipodi:rx="1.3363476"
+       sodipodi:ry="1.3363477"
+       sodipodi:start="0"
+       sodipodi:end="6.2718232"
+       sodipodi:open="true"
+       d="m 171.72078,60.508385 a 1.3363476,1.3363477 0 0 1 -1.33255,1.336342 1.3363476,1.3363477 0 0 1 -1.34013,-1.32875 1.3363476,1.3363477 0 0 1 1.32494,-1.343891 1.3363476,1.3363477 0 0 1 1.34765,1.321115" />
+    <path
+       style="fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.07715169;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       id="path4643-7"
+       sodipodi:type="arc"
+       sodipodi:cx="147.39925"
+       sodipodi:cy="42.334057"
+       sodipodi:rx="1.3363476"
+       sodipodi:ry="1.3363477"
+       sodipodi:start="0"
+       sodipodi:end="6.2718232"
+       sodipodi:open="true"
+       d="m 148.73559,42.334057 a 1.3363476,1.3363477 0 0 1 -1.33255,1.336342 1.3363476,1.3363477 0 0 1 -1.34012,-1.32875 1.3363476,1.3363477 0 0 1 1.32494,-1.343891 1.3363476,1.3363477 0 0 1 1.34765,1.321115" />
+    <rect
+       style="fill:#f0f4f5;fill-opacity:1;stroke:none;stroke-width:0.08205979;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect4505-9"
+       width="253.90605"
+       height="66.122559"
+       x="-22.049637"
+       y="84.562653" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       x="5.0781994"
+       y="117.29603"
+       id="text4509-8"><tspan
+         sodipodi:role="line"
+         x="5.0781994"
+         y="117.29603"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#333333;stroke-width:0.26458332;"
+         id="tspan4511-6">移動ログからPOIの列を生成し、それを文章に見立ててword2vecをかける</tspan><tspan
+         sodipodi:role="line"
+         x="5.0781994"
+         y="123.82546"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#333333;stroke-width:0.26458332;"
+         id="tspan4746">→POIにベクトルを割り当てることができる</tspan><tspan
+         sodipodi:role="line"
+         x="5.0781994"
+         y="130.41206"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#333333;stroke-width:0.26458332;"
+         id="tspan4748">→移動の前後関係の特徴が近いPOIどうしには近いベクトルが割り当てられる</tspan></text>
+    <rect
+       style="fill:#fbfbfb;fill-opacity:1;stroke:none;stroke-width:0.0827205;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect4505-8"
+       width="253.90605"
+       height="67.191635"
+       x="-22.049637"
+       y="150.68521" />
+    <rect
+       style="fill:#f0f4f5;fill-opacity:1;stroke:none;stroke-width:0.08205979;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect4505-9-0"
+       width="253.90607"
+       height="66.122559"
+       x="-22.049656"
+       y="217.87685" />
+    <path
+       style="fill:#013463;fill-opacity:1;stroke:none;stroke-width:0.11352924;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       d="m 116.27851,33.702327 v 6.77168 h -12.02717 v 11.760004 h 12.02717 v 6.369637 l 12.4504,-12.450403 z"
+       id="rect4894"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="レイヤー 2"
+     transform="translate(3.0828614e-5,0.53453858)">
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#013463;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="10.680035"
+       y="21.755819"
+       id="text4499"><tspan
+         sodipodi:role="line"
+         id="tspan4497"
+         x="10.680035"
+         y="21.755819"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#013463;fill-opacity:1;stroke-width:0.26458332">1.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:HGMinchoE;-inkscape-font-specification:'HGMinchoE, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#94abb1;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="25.657873"
+       y="20.686739"
+       id="text4503"><tspan
+         sodipodi:role="line"
+         id="tspan4501"
+         x="25.657873"
+         y="20.686739"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;font-family:HGMinchoE;-inkscape-font-specification:'HGMinchoE, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#94abb1;fill-opacity:1;stroke-width:0.26458332">使用技術(word2vec)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#013463;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="11.865531"
+       y="122.5208"
+       id="text4499-7"><tspan
+         sodipodi:role="line"
+         id="tspan4497-0"
+         x="11.865531"
+         y="122.5208"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#013463;fill-opacity:1;stroke-width:0.26458332">2.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:HGMinchoE;-inkscape-font-specification:'HGMinchoE, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#94abb1;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="26.84337"
+       y="121.45171"
+       id="text4503-6"><tspan
+         sodipodi:role="line"
+         id="tspan4501-6"
+         x="26.84337"
+         y="121.45171"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;font-family:HGMinchoE;-inkscape-font-specification:'HGMinchoE, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#94abb1;fill-opacity:1;stroke-width:0.26458332">当社提案</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       x="26.653749"
+       y="196.26822"
+       id="text4509-8-8"><tspan
+         sodipodi:role="line"
+         x="26.653749"
+         y="196.26822"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#333333;stroke-width:0.26458332;"
+         id="tspan4748-0">特定のユーザが特定の状況で好むベクトルを計算し、</tspan><tspan
+         sodipodi:role="line"
+         x="26.653749"
+         y="202.79765"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#333333;stroke-width:0.26458332;"
+         id="tspan4806">近いベクトルを持つPOIをユーザに提案する</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#013463;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="11.391458"
+       y="188.39528"
+       id="text4499-7-9"><tspan
+         sodipodi:role="line"
+         id="tspan4497-0-2"
+         x="11.391458"
+         y="188.39528"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#013463;fill-opacity:1;stroke-width:0.26458332">3.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:HGMinchoE;-inkscape-font-specification:'HGMinchoE, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#94abb1;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="26.369297"
+       y="187.3262"
+       id="text4503-6-5"><tspan
+         sodipodi:role="line"
+         id="tspan4501-6-5"
+         x="26.369297"
+         y="187.3262"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;font-family:HGMinchoE;-inkscape-font-specification:'HGMinchoE, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#94abb1;fill-opacity:1;stroke-width:0.26458332">レコメンデーション</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       x="27.245169"
+       y="262.63943"
+       id="text4509-8-8-0"><tspan
+         sodipodi:role="line"
+         x="27.245169"
+         y="262.63943"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#333333;stroke-width:0.26458332;"
+         id="tspan4806-1">「山が好き」「海が好き」のユーザのみでなく</tspan><tspan
+         sodipodi:role="line"
+         x="27.245169"
+         y="269.16885"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#333333;stroke-width:0.26458332;"
+         id="tspan4858">「言葉にうまくできないけどなんとなくこんなところが好き」のユーザに</tspan><tspan
+         sodipodi:role="line"
+         x="27.245169"
+         y="275.6983"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#333333;stroke-width:0.26458332;"
+         id="tspan4860">ベクトルに基づいた目的地を提案することが可能となる</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#013463;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="11.982877"
+       y="254.76649"
+       id="text4499-7-9-2"><tspan
+         sodipodi:role="line"
+         id="tspan4497-0-2-4"
+         x="11.982877"
+         y="254.76649"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#013463;fill-opacity:1;stroke-width:0.26458332">4.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:HGMinchoE;-inkscape-font-specification:'HGMinchoE, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#94abb1;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="26.960716"
+       y="253.69742"
+       id="text4503-6-5-4"><tspan
+         sodipodi:role="line"
+         id="tspan4501-6-5-4"
+         x="26.960716"
+         y="253.69742"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;font-family:HGMinchoE;-inkscape-font-specification:'HGMinchoE, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#94abb1;fill-opacity:1;stroke-width:0.26458332">効果</tspan></text>
+    <rect
+       style="fill:#f0f4f5;fill-opacity:1;stroke:none;stroke-width:0.10409247;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect4862"
+       width="20"
+       height="20"
+       x="-34.299858"
+       y="193.26648"
+       transform="rotate(-45)" />
+    <rect
+       style="fill:#fbfbfb;fill-opacity:1;stroke:none;stroke-width:0.10409247;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect4862-2"
+       width="20"
+       height="20"
+       x="11.935125"
+       y="147.03149"
+       transform="rotate(-45)"
+       inkscape:transform-center-x="-23.519718"
+       inkscape:transform-center-y="44.366732" />
+    <rect
+       style="fill:#fbfbfb;fill-opacity:1;stroke:none;stroke-width:0.10409247;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect4862-2-0"
+       width="20"
+       height="20"
+       x="-82.184753"
+       y="241.15137"
+       transform="rotate(-45)"
+       inkscape:transform-center-x="-23.519718"
+       inkscape:transform-center-y="44.366732" />
+  </g>
+</svg>
