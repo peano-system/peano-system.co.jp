@@ -82,6 +82,8 @@ box model
 .news_item {
     padding: 15px 0;
     border-bottom: 1px solid #333;
+    font-size: 1.5em;
+    color: #333;
 }
 .news_item:first-child {
     border-top: 1px solid #333;
@@ -95,12 +97,15 @@ box model
     text-decoration: underline;
 }
 .news_date {
-    margin-right: 10px;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
 }
 .news_tit {
 }
 .news_cate {
-    margin-left: 15px;
+    width: 100px;
+    margin: 0 1em;
     padding: 2px 8px;
     border: 1px solid #ccc;
     font-size: 80%;
