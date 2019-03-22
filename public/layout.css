@@ -380,14 +380,37 @@ table.job ul {
 	padding-left: 2em;
 }
 
-.job-index {
+#job-index {
 	font-size: 1.6em;
+	padding: 30px 0;
+	margin-bottom: -60px;
+	@media only screen and (min-width: 769px){
+		margin-bottom: -120px;
+	}
 }
 
-.job-index ul {
+#job-index ul {
 	display: inline;
+	padding-left: 1em;
 }
 
-.job-index ul > li {
+#job-index ul > li {
 	display: inline-block;
+	padding: .5em;
+}
+
+#job-index ul > li a:link,
+#job-index ul > li a:visited,
+#job-index ul > li a:hover,
+#job-index ul > li a:active {
+	color: #666666;
+}
+
+.anchor {
+	padding-top: 50px;
+	margin-top: -50px;
+	@media only screen and (min-width: 769px){
+		padding-top: 180px;
+		margin-top: -180px;
+	}
 }
