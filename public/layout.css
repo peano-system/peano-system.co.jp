@@ -371,4 +371,20 @@ table.job {
 	border: 1px solid #333333;
 }
 
+table.job ul {
+	list-style: circle;
+	padding-left: 2em;
+}
+
+.job-index {
+	font-size: 1.6em;
+}
+
+.job-index ul {
+	display: inline;
+}
+
+.job-index ul > li {
+	display: inline-block;
+}
 
