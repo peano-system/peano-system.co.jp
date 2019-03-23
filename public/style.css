@@ -72,11 +72,20 @@ img {
 *******************************************************************************/
 .picture-set {
     position: relative;
+    padding-top: 60px;
+    margin-top: -30px;
+    @media only screen and (min-width: 769px) {
+        padding-top: 260px;
+        margin-top: -260px;
+    }
 }
 .picture-set .career {
     margin-top: -100%;
 }
-
+.talk {
+    margin: 1.6em auto;
+    width: 80%;
+}
 /*----
 新着情報, イベント予定
 ----*/
@@ -376,4 +385,58 @@ btn
         position: relative;
         left: 50px;
     }
+}
+
+
+/*****************************************************************************/
+/* 人材採用 */
+/*****************************************************************************/
+table.job {
+    margin: 2em auto 8em auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+.job th {
+    width: 20%;
+    background-color: #cccccc;
+}
+.job th, .job td {
+    font-size: 1.6em;
+    padding: 1em;
+    border: 1px solid #333333;
+}
+
+.job dd {
+    padding-left: 2em;
+}
+
+table.job ul {
+    list-style: circle;
+    padding-left: 2em;
+}
+
+#job-index {
+    font-size: 1.6em;
+    padding: 30px 0;
+    margin-bottom: -60px;
+    @media only screen and (min-width: 769px){
+        margin-bottom: -120px;
+    }
+}
+
+#job-index ul {
+    display: inline;
+    padding-left: 1em;
+}
+
+#job-index ul > li {
+    display: inline-block;
+    padding: .5em;
+}
+
+#job-index ul > li a:link,
+#job-index ul > li a:visited,
+#job-index ul > li a:hover,
+#job-index ul > li a:active {
+    color: #666666;
 }
