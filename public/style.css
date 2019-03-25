@@ -407,7 +407,9 @@ table.job {
 }
 
 .job dd {
-    padding-left: 2em;
+    margin-left: 4pt;
+    border-left: solid lightgray 2pt;
+    padding-left: 6pt;
 }
 
 table.job ul {
