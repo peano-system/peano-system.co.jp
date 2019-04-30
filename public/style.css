@@ -460,3 +460,21 @@ table.job ul {
 #job-index ul > li a:active {
     color: #666666;
 }
+
+/*****************************************************************************/
+/* 情報セキュリティ基本方針 */
+/*****************************************************************************/
+#security-policy {
+    padding: 2em 10%;
+}
+#security-policy p {
+    margin-top: 1em;
+}
+#security-policy .date,
+#security-policy .signeture
+{
+    margin-left: 50%;
+}
+#security-policy .indent {
+    text-indent: 1em;
+}
