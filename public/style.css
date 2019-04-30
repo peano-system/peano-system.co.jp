@@ -436,12 +436,17 @@ table.job ul {
 }
 
 #job-index {
-    font-size: 1.6em;
+    font-size: 1.2rem;
     padding: 30px 0;
-    margin-bottom: -60px;
-    @media only screen and (min-width: 769px){
-        margin-bottom: -120px;
-    }
+}
+
+#job-index a:link,
+#job-index a:visited,
+#job-index a:hover,
+#job-index a:active
+{
+    color: #666666;
+    font-size: 1.2rem;
 }
 
 #job-index ul {
@@ -451,15 +456,9 @@ table.job ul {
 
 #job-index ul > li {
     display: inline-block;
-    padding: .5em;
+    padding: .5em .2em;
 }
 
-#job-index ul > li a:link,
-#job-index ul > li a:visited,
-#job-index ul > li a:hover,
-#job-index ul > li a:active {
-    color: #666666;
-}
 
 /*****************************************************************************/
 /* 情報セキュリティ基本方針 */
