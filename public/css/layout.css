@@ -1,0 +1,206 @@
+/******************************************************************************/
+/* 共通 */
+/******************************************************************************/
+@charset "utf-8";
+html, body {
+    height: 100%;
+}
+body {
+    min-width: 320px;
+    background: #fff;
+    font-family: "游明朝","ヒラギノ明朝 ProN W3", "HiraMinProN-W3", "HG明朝E";
+    -webkit-text-size-adjust: 100%; /*iPhone横向き時_文字自動調整されない*/
+    word-wrap:break-word;
+    color: #222;
+    font-size: 62.5%;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+p {
+    font-size: 1.8em;
+    line-height: 1.6;
+}
+a {
+    text-decoration: underline;
+    color: #1546C3;
+}
+a:hover {
+    text-decoration: none;
+    color: #ccc;
+}
+
+/******************************************************************************/
+/* ヘッダー xs */
+/******************************************************************************/
+header {
+    width: 96%;
+    margin: 0 auto 30px;
+    padding: 5px 0;
+    background: #fff;
+    text-align: center;
+}
+header h1 > div {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+header h1 {
+    position: relative;
+    padding-left: 20px;
+    font-size: 1.4em;
+    color: #333;
+    line-height: 1.0;
+}
+header address {
+    text-align: center;
+}
+header address .link-tel {
+    font-size: 2.0em;
+    margin-right: 10pt;
+}
+header address img {
+    vertical-align: middle;
+}
+
+/******************************************************************************/
+/* ヘッダー タブレット以上及び印刷用 */
+/******************************************************************************/
+@media only print, screen and (min-width: 769px){
+    header {
+        margin: 0 auto 5px;
+        padding: 15px 0 10px;
+    }
+    header > div {
+        position: relative;
+        width: 1000px;
+        height: 60px;
+        margin: 0 auto;
+    }
+    header h1 {
+        float: left;
+        font-size: 1.4em;
+    }
+    header h1 > div {
+        text-align: left;
+    }
+    header logo {
+        width: 400px;
+        margin: 0;
+        padding: 0;
+    }
+    header address {
+        float: right;
+        width: 240px;
+    }
+}
+
+/******************************************************************************/
+/* グローバルナビ xs */
+/******************************************************************************/
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 110;
+    opacity:　0.7;
+    filter:　alpha(opacity=70);
+    -ms-filter: "alpha( opacity=70 )";
+    cursor: pointer;
+}
+nav > ul {
+    display: none;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    margin: 0 0 10px;
+    z-index: 105;
+}
+nav > ul {
+    float: left;
+    width: 50%;
+    padding: 10px 0;
+    background: #fff;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    font-size: 1.4em;
+    text-align: center;
+}
+nav > ul {
+    border-right: none;
+}
+.**:first-child, nav > ul: nth-child(2) {
+    border-top: 1px solid #ccc;
+}
+nav li span:first-child {
+    display: none;
+}
+nav li span:last-child {
+    display: block;
+    color: #222;
+    text-decoration: none;
+}
+
+/******************************************************************************/
+/* グローバルナビ タブレット以上及び印刷用 */
+/******************************************************************************/
+@media print, screen and (min-width: 769px) {
+    #btn-nav {
+        display: none;
+    }
+    nav {
+        clear: both;
+        position: static;
+        display: block;
+        width: 100%;
+        background: #fff;
+    }
+    nav > ul {
+        width: 1000px;
+        margin: 0 auto 10px;
+    }
+    nav > ul > li {
+        position: relative;
+        width: 172px;
+        height: 40px;
+        padding: 0;
+        background: #fff;
+        border-right: 1px solid #ccc;
+        border-bottom: none;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    nav > ul > li > span:first-child {
+        display: block;
+    }
+    nav > ul > li:first-child, nav > ul > li:nth-child(2n) {
+        border-top: none;
+        border-right: 1px solid #ccc;
+    }
+    nav > ul > li:first-child {
+        border-left: 1px solid #ccc;
+        width: 140px;
+        height: 40px;
+        color: #009A59;
+    }
+}
+
+/******************************************************************************/
+/* メイン画像 xs */
+/******************************************************************************/
+.img-main,  {
+    text-align: center;
+}
+
+img-main > div {
+    margin: 0 auto;
+    padding: 60px 0;
+    text-align: center;
+}
+
