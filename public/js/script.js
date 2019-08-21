@@ -61,7 +61,7 @@ $(function() {
 		    // スクロール後のナビ位置固定
 		    $window.scroll(function() {
 		        if ($window.scrollTop() > 90) {
-		            $this.addClass('fixed');
+                    $this.addClass('fixed');
 		        } else {
 		            $this.removeClass('fixed');
 		        }

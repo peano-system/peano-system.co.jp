@@ -104,7 +104,8 @@ header address img {
 /******************************************************************************/
 /* グローバルナビ xs */
 /******************************************************************************/
-.btn-nav {
+nav .btn-nav {
+    position: fixed;
     top: 0;
     right: 0;
     z-index: 110;
@@ -119,7 +120,6 @@ nav > ul {
     top: 50px;
     left: 0;
     width: 100%;
-    margin: 0 0 10px;
     z-index: 105;
 }
 nav li {
@@ -154,12 +154,11 @@ nav .btn-nav {
     top: 0;
     right: 0;
 }
-.mainNavFixed {
+nav.fixed, nav.fixed > .btn-nav {
     position: fixed;
     top: 0;
     z-index: 1000;
-    padding: 15px 0;
-    transition: .5s ease;
+    padding: 0;
 }
 
 /******************************************************************************/
@@ -204,25 +203,19 @@ nav .btn-nav {
         visibility: visible;
         margin-bottom: 5px;
     }
-    .fixed {
-        position: fixed;
-        top: 0;
-        z-index: 1000;
-        padding: 15px 0;
-        transition: .5s ease;
-    }
 }
 
 /******************************************************************************/
 /* メイン画像 xs */
 /******************************************************************************/
 .img-main,  {
-    text-align: center;
+    position: relative;
 }
-
-img-main > div {
+.img-main > div {
     margin: 0 auto;
-    padding: 60px 0;
+    padding: 0;
     text-align: center;
 }
-
+.img-main > div > img {
+    width: 100%;
+}
