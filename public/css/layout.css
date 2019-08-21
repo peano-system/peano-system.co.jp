@@ -17,7 +17,6 @@ body {
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    -o-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
 }
@@ -25,8 +24,9 @@ p {
     font-size: 1.8em;
     line-height: 1.6;
 }
-a {
+a, a:link, a:visited, a:active {
     text-decoration: underline;
+    text-decoration-color: #1546C3;
     color: #1546C3;
 }
 a:hover {
@@ -68,6 +68,7 @@ header address img {
     vertical-align: middle;
 }
 
+
 /******************************************************************************/
 /* ヘッダー タブレット以上及び印刷用 */
 /******************************************************************************/
@@ -103,13 +104,12 @@ header address img {
 /******************************************************************************/
 /* グローバルナビ xs */
 /******************************************************************************/
-nav {
-    position: fixed;
+.btn-nav {
     top: 0;
     right: 0;
     z-index: 110;
-    opacity:　0.7;
-    filter:　alpha(opacity=70);
+    opacity: 0.7;
+    filter: alpha(opacity=70);
     -ms-filter: "alpha( opacity=70 )";
     cursor: pointer;
 }
@@ -122,7 +122,7 @@ nav > ul {
     margin: 0 0 10px;
     z-index: 105;
 }
-nav > ul {
+nav li {
     float: left;
     width: 50%;
     padding: 10px 0;
@@ -132,62 +132,84 @@ nav > ul {
     font-size: 1.4em;
     text-align: center;
 }
-nav > ul {
-    border-right: none;
+nav li a,
+nav li a:link,
+nav li a:visited,
+nav li a:active
+{
+    text-decoration: none;
+    color: #222;
 }
-.**:first-child, nav > ul: nth-child(2) {
+nav li:first-child, nav li:nth-child(2) {
     border-top: 1px solid #ccc;
 }
-nav li span:first-child {
+nav li a span:first-child {
     display: none;
 }
-nav li span:last-child {
+nav li a span:last-child {
     display: block;
-    color: #222;
-    text-decoration: none;
+}
+nav .btn-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.mainNavFixed {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    padding: 15px 0;
+    transition: .5s ease;
 }
 
 /******************************************************************************/
 /* グローバルナビ タブレット以上及び印刷用 */
 /******************************************************************************/
 @media print, screen and (min-width: 769px) {
-    #btn-nav {
+    nav .btn-nav {
         display: none;
+        clear: both;
     }
     nav {
-        clear: both;
-        position: static;
         display: block;
+        position: relative;
         width: 100%;
         background: #fff;
     }
-    nav > ul {
-        width: 1000px;
-        margin: 0 auto 10px;
+    nav ul {
+        display: block;
+        position: static;
+        width: 960px;
+        margin: 0 auto 10px auto;
     }
-    nav > ul > li {
-        position: relative;
-        width: 172px;
-        height: 40px;
-        padding: 0;
+    nav li {
+        display: block;
+        position: static;
+        width: 160px;
+        padding: 10px 0;
         background: #fff;
         border-right: 1px solid #ccc;
         border-bottom: none;
         font-size: 1.5em;
         text-align: center;
     }
-    nav > ul > li > span:first-child {
-        display: block;
-    }
-    nav > ul > li:first-child, nav > ul > li:nth-child(2n) {
+    nav li:first-child, nav li:nth-child(2) {
         border-top: none;
-        border-right: 1px solid #ccc;
     }
-    nav > ul > li:first-child {
+    nav li:first-child {
         border-left: 1px solid #ccc;
-        width: 140px;
-        height: 40px;
-        color: #009A59;
+    }
+    nav li a span:first-child {
+        display: block;
+        visibility: visible;
+        margin-bottom: 5px;
+    }
+    .fixed {
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+        padding: 15px 0;
+        transition: .5s ease;
     }
 }
 
