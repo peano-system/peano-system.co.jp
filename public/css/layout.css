@@ -68,7 +68,6 @@ header address img {
     vertical-align: middle;
 }
 
-
 /******************************************************************************/
 /* ヘッダー タブレット以上及び印刷用 */
 /******************************************************************************/
@@ -228,6 +227,54 @@ nav.fixed, nav.fixed > .btn-nav {
         width: 1000px;
     }
 }
+
+/******************************************************************************/
+/* フッター */
+/******************************************************************************/
+footer {
+    position: relative;
+    clear: both;
+    width: 100%;
+    background-color: rgba(149, 170, 170, 0.2);
+    padding: 20px 0;
+}
+footer > :first-child {
+    margin-bottom: 30px;
+    text-align: center;
+}
+footer .mail {
+    margin-bottom: 20px;
+    text-align: center;
+}
+footer ul {
+    width: 96%;
+    margin: 0 auto;
+    list-style-type: none;
+}
+footer li {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+footer ul:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+footer li a,
+footer li a:link,
+footer li a:visited,
+footer li a:active {
+    display: block;
+    padding: 8px;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #222;
+}
+footer li a:hover {
+    background: #fff;
+}
+
 /******************************************************************************/
 /* ページ上部へのスクロールボタン */
 /******************************************************************************/
@@ -238,6 +285,7 @@ nav.fixed, nav.fixed > .btn-nav {
     bottom: 30px;
     cursor: pointer;
     opacity: 0.9;
+    z-index: 100
 }
 /******************************************************************************/
 /* 共通パーツ */
