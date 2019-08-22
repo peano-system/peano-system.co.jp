@@ -205,7 +205,7 @@ nav.fixed, nav.fixed > .btn-nav {
 }
 
 /******************************************************************************/
-/* メイン画像 xs */
+/* メイン画像(暫定的に各ページ共用) xs */
 /******************************************************************************/
 .img-main,  {
     position: relative;
@@ -220,7 +220,7 @@ nav.fixed, nav.fixed > .btn-nav {
 }
 
 /******************************************************************************/
-/* メイン画像 タブレット以上及び印刷用 */
+/* メイン画像(暫定的に各ページ共用) タブレット以上及び印刷用 */
 /******************************************************************************/
 @media print, screen and (min-width: 769px) {
     .img-main > div {
@@ -287,6 +287,7 @@ footer li a:hover {
     opacity: 0.9;
     z-index: 100
 }
+
 /******************************************************************************/
 /* 共通パーツ */
 /******************************************************************************/
@@ -303,6 +304,23 @@ h2.heading hr {
     margin: 5px auto;
     width: 8em;
     border: 1px solid #AC002C;
+}
+
+/******************************************************************************/
+/* パンくずメニュー */
+/******************************************************************************/
+.breadcrumbs {
+    margin: 10px auto;
+    width: 100%;
+    font-size: 1.3em;
+}
+.breadcrumbs a {
+    color: #444;
+}
+@media print, screen and (min-width: 769px) {
+    .breadcrumbs {
+        width: 1000px;
+    }
 }
 
 /******************************************************************************/
@@ -523,5 +541,72 @@ h2.heading hr {
     line-height: normal;
     width: 80%;
     margin: 0 auto;
+}
+
+/******************************************************************************/
+/* 募集職種 */
+/******************************************************************************/
+#job-index {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+#job-index span,
+#job-index li,
+#job-index a,
+#job-index p {
+    font-size: 1.2em;
+}
+#job-index a:link,
+#job-index a:visited,
+#job-index a:hover,
+#job-index a:active
+{
+    color: #666666;
+    font-size: 1em;
+}
+#job-index ul {
+    display: inline;
+    padding-left: 1em;
+}
+#job-index ul > li {
+    display: inline-block;
+    padding: .5em .2em;
+}
+
+/*****************************************************************************/
+/* 人材採用 */
+/*****************************************************************************/
+.job-offer {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.2em;
+    padding: 30px 0;
+}
+.job-offer table {
+    margin: 2em auto 8em auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+.job-offer th {
+    width: 20%;
+    background-color: #cccccc;
+}
+.job-offer th, .job-offer td {
+    font-size: 1.2em;
+    line-height: normal;
+    padding: 1em;
+    border: 1px solid #333333;
+}
+
+.job-offer dd {
+    margin-left: 4pt;
+    border-left: solid lightgray 2pt;
+    padding-left: 6pt;
+}
+
+.job-offer table ul {
+    list-style: circle;
+    padding-left: 2em;
 }
 
