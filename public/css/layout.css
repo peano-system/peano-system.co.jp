@@ -417,6 +417,53 @@ h2.heading hr {
     }
 }
 
-
-
+/******************************************************************************/
+/* お知らせ */
+/******************************************************************************/
+#topics {
+    clear: both;
+    padding: 30px 0;
+}
+#topics ul {
+    width: 80%;
+    margin: 15px auto 0;
+    list-style-type: none;
+    border-top: 1px solid #333;
+}
+#topics li {
+    padding: 15px 0;
+    border-bottom: 1px solid #333;
+    font-size: 1.5em;
+    color: #333;
+    line-height: normal;
+}
+#topics > li:first-child {
+    border-top: 1px solid #333;
+}
+#topics .date {
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+#topics .title a,
+#topics .title a:hover,
+#topics .title a:link,
+#topics .title a:visited {
+    color: #333;
+}
+#topics .tag {
+    width: 100px;
+    margin: 0 1em;
+    padding: 2px 8px;
+    border: 1px solid #ccc;
+    font-size: 80%;
+}
+#topics .previous {
+    text-align: right;
+    font-size: 1.5em;
+    color: #333;
+    line-height: normal;
+    width: 80%;
+    margin: 0 auto;
+}
 
