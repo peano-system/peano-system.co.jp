@@ -691,3 +691,38 @@ h2.heading hr {
     }
 }
 
+/*******************************************************************************
+* 会社概要
+*******************************************************************************/
+#company > * {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+}
+@media print, screen and (min-width: 769px) {
+    #company > * {
+        width: 1000px;
+    }
+}
+
+/*****************************************************************************/
+/* 情報セキュリティ基本方針 */
+/*****************************************************************************/
+#security-policy h2 {
+    margin: 10px auto;
+}
+#security-policy {
+    width: 80%;
+    margin: 0 auto 30px auto;
+}
+#security-policy p {
+    margin-top: 1em;
+}
+#security-policy .date,
+#security-policy .signeture
+{
+    margin-left: 50%;
+}
+#security-policy .indent {
+    text-indent: 1em;
+}
