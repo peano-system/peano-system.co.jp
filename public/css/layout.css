@@ -274,6 +274,33 @@ footer li a:active {
 footer li a:hover {
     background: #fff;
 }
+@media print, screen and (min-width: 769px) {
+    footer > * {
+        width: 1000px;
+        margin: 0 auto;
+        padding: 20px 0 20px 0;
+    }
+    footer .logo {
+        float: left;
+    }
+    footer .mail {
+        float: right;
+    }
+    footer ul {
+        clear: both;
+        width: 1000px;
+        margin: 30px auto 30px auto;
+    }
+    footer li {
+        width: auto;
+        margin-right: 15px;
+    }
+    footer li a {
+        padding: 8px 20px;
+        font-size: 1.6em;
+        color: #000;
+    }
+}
 
 /******************************************************************************/
 /* ページ上部へのスクロールボタン */
