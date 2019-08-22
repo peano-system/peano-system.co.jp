@@ -228,3 +228,83 @@ nav.fixed, nav.fixed > .btn-nav {
         width: 1000px;
     }
 }
+
+/******************************************************************************/
+/* 共通パーツ */
+/******************************************************************************/
+h2.heading {
+    text-align: center;
+    line-height: 2.0;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+h2.heading span:first-child {
+    color: #999;
+}
+h2.heading hr {
+    margin: 5px auto;
+    width: 8em;
+    border: 1px solid #AC002C;
+}
+
+/******************************************************************************/
+/* このようなお悩みを～ xs */
+/******************************************************************************/
+#for-the-customer > div {
+    margin: 50px auto;
+    width: 80%;
+}
+#for-the-customer .case {
+    display: block;
+    width: 100%;
+    margin: 40px auto;
+}
+#for-the-customer img {
+    display: block;
+    width: 100%;
+}
+#for-the-customer .title {
+    padding: 8px;
+    text-align: center;
+    color: #fff;
+    font-size: 2.0em;
+    font-weight: normal;
+}
+#for-the-customer .case:first-child .title {
+    background: #ac002c;
+}
+#for-the-customer .case:last-child .title {
+    background: #003264;
+}
+#for-the-customer .case p {
+    margin-bottom: 10px;
+    font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro, "ＭＳ Ｐゴシック", sans-serif;
+    color: #000;
+    font-size: 1.8em;
+}
+#for-the-customer .case:first-child >:last-child {
+    background-color: rgba(172, 0, 0, 0.18);
+    padding: 8px;
+}
+#for-the-customer .case:last-child >:last-child {
+    background-color: rgba(0, 50, 50, 0.18);
+    padding: 8px;
+}
+#for-the-customer .case:first-child p:before {
+    content: "■";
+    color: #ac002c;
+}
+#for-the-customer .case:last-child p:before {
+    content: "■";
+    color: #003264;
+}
+
+@media print, screen and (min-width: 769px) {
+    #for-the-customer > div {
+        width: 1000px;
+    }
+    #for-the-customer .case {
+        float: left;
+        width: 50%;
+    }
+}
