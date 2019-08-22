@@ -350,6 +350,20 @@ h2.heading hr {
     }
 }
 
+/*****************************************************************************/
+/* アンカー */
+/*****************************************************************************/
+.anchor {
+    padding-top: 50px;
+    margin-top: -30px;
+}
+@media only screen and (min-width: 769px) {
+    .anchor {
+        padding-top: 100px !important;
+        margin-top: -100px !important;
+    }
+}
+
 /******************************************************************************/
 /* このようなお悩みを～ */
 /******************************************************************************/
@@ -635,5 +649,45 @@ h2.heading hr {
 .job-offer table ul {
     list-style: circle;
     padding-left: 2em;
+}
+
+/*******************************************************************************
+* メンバー紹介
+*******************************************************************************/
+#members .heading {
+    margin-bottom: 0;
+}
+#members article {
+    width: 80%;
+    margin: 0 auto;
+}
+#members .picture-set {
+    position: relative;
+    width: 100%;
+    padding-top: 60px;
+    margin-top: -30px;
+}
+#members .picture-set .picture {
+    width: 100%;
+}
+#members .picture-set .career {
+    width: 100%;
+    margin-top: -100%;
+}
+#members .talk {
+    margin: 10px auto;
+    width: 80%;
+}
+@media only screen and (min-width: 769px) {
+    #members {
+        margin: 0 auto;
+    }
+    #members article {
+        width: 1000px;
+    }
+    #members .picture-set {
+        padding-top: 260px;
+        margin-top: -260px;
+    }
 }
 
