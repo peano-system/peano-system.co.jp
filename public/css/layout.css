@@ -248,7 +248,7 @@ h2.heading hr {
 }
 
 /******************************************************************************/
-/* このようなお悩みを～ xs */
+/* このようなお悩みを～ */
 /******************************************************************************/
 #for-the-customer > div {
     margin: 50px auto;
@@ -298,7 +298,6 @@ h2.heading hr {
     content: "■";
     color: #003264;
 }
-
 @media print, screen and (min-width: 769px) {
     #for-the-customer > div {
         width: 1000px;
@@ -306,5 +305,19 @@ h2.heading hr {
     #for-the-customer .case {
         float: left;
         width: 50%;
+    }
+}
+
+/******************************************************************************/
+/* ぺあのしすてむが解決します */
+/******************************************************************************/
+#our-solution > img {
+    display: block;
+    width: 100%;
+    margin: 50px auto;
+}
+@media print, screen and (min-width: 769px) {
+    #our-solution > img {
+        width: 1000px;
     }
 }
