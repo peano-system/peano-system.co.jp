@@ -21,14 +21,16 @@ $(function() {
     $.fn.btnScroll = function() {
         var speed = 300;
         return this.each(function() {
-            $(window).bind('scroll', function() {
-                if($(window).scrollTop() > 150) {
-                    $(this).fadeIn('fadeIn');
+            var $window = $(window);
+            var $this = $(this);
+            $window.bind('scroll', function() {
+                if($window.scrollTop() > 150) {
+                    $this.fadeIn('fadeIn');
                 } else {
-                    $(this).fadeOut();
+                    $this.fadeOut();
                 }
             });
-            $(this).on('click', function() {
+            $this.on('click', function() {
                 $('html, body').animate({ scrollTop: 0 }, 'speed', 'swing');
             });
         });
