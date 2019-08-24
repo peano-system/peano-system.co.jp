@@ -268,11 +268,12 @@ footer li a:active {
     display: block;
     padding: 8px;
     font-size: 1.5em;
+    font-style: normal;
     text-decoration: none;
     color: #222;
 }
 footer li a:hover {
-    background: #fff;
+    background-color: #fff;
 }
 @media print, screen and (min-width: 769px) {
     footer > * {
@@ -725,4 +726,215 @@ h2.heading hr {
 }
 #security-policy .indent {
     text-indent: 1em;
+}
+
+/*****************************************************************************/
+/* 業務のボトルネックを数学の力で解決します */
+/*****************************************************************************/
+#resolve {
+    margin-top: 30px;
+}
+#resolve > div {
+    margin: 0 auto;
+    padding: 30px 25px;
+    text-align: left;
+}
+@media only screen and (min-width: 769px) {
+    #resolve > div {
+        width: 600px;
+        margin: 0 auto;
+        padding: 30px 0;
+    }
+}
+
+/*****************************************************************************/
+/* ぺあのしすてむの特徴共通 */
+/*****************************************************************************/
+.feature .txt-num {
+    padding-right: 7px;
+    color: #003264;
+    font-size: 3.0em;
+    font-style: italic;
+    vertical-align: -0.4em;
+}
+.feature h3.heading {
+    color: #333;
+    font-size: 2.5em;
+}
+.feature .txt-num2 {
+    padding-right: 15px;
+    color: #003264;
+    font-size: 3.8em;
+    font-style: italic;
+    vertical-align: -0.2em;
+}
+.feature h3 > :last-child {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+/*****************************************************************************/
+/* 業務分析&数理モデリング */
+/*****************************************************************************/
+#feature-1 {
+    margin: 30px 10px;
+}
+#feature-1 > p {
+    margin-bottom: 1em;
+}
+#feature-1 p {
+    font-size: 1.8em;
+}
+#feature-1 .col > p:last-child {
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+#feature-1 .method {
+    clear: both;
+    margin: 2px auto;
+    padding: 20px;
+    background-color: #faf2f4;
+}
+#feature-1 h4 {
+    text-align: center;
+}
+#feature-1 h4 :first-child {
+    font-size: 3em;
+    color: rgb(211, 150, 169);
+}
+#feature-1 h4 :last-child {
+    font-size: 2em;
+}
+#feature-1 dt {
+    margin: 15px 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center; /* for no-flexbox browsers */
+    color: #ac002c;
+    font-size: 3.0em;
+    font-style: italic;
+}
+#feature-1 dt:before,
+#feature-1 dt:after {
+    border-top: 1px solid;
+    content: "";
+    display: inline; /* for IE */
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex: 1;
+    flex-grow: 1;
+}
+#feature-1 dt:before {
+    margin-right: 0.5em;
+}
+#feature-1 dt:after {
+    margin-left: 0.5em;
+}
+#feature-1 dd {
+    width: 90%;
+    margin: auto;
+    font-size: 1.8em;
+    line-height: normal;
+}
+@media only screen and (min-width: 769px) {
+    #feature-1 {
+        width: 1000px;
+        margin: 0 auto;
+    }
+    #feature-1 .col {
+        float: left;
+        width: 50%;
+    }
+     #feature-1 .method {
+        padding: 30px 80px;
+    }
+}
+
+/*****************************************************************************/
+/* 数学者が開発するシステム */
+/*****************************************************************************/
+#feature-2 {
+    margin: 30px 10px;
+    padding: 30px 0;
+    background-color: rgba(149, 170, 170, 0.1);
+}
+#feature-2 > div > * {
+    margin: 1em 0;
+}
+#feature-2 em {
+    margin: 25px auto;
+    font-size: 1.4em;
+    color: #003264;
+    font-weight: bold;
+    font-style: normal;
+}
+#feature-2 h4 {
+    text-align: center;
+    font-size: 2.4em;
+    color: #333;
+    font-style: normal;
+}
+#feature-2 p:last-child {
+    text-align: center;
+}
+#feature-2 em a,
+#feature-2 em a:link,
+#feature-2 em a:hover,
+#feature-2 em a:visited {
+    margin: 25px auto;
+    font-weight: bold;
+    font-style: normal;
+    color: #003264;
+}
+@media only screen and (min-width: 769px) {
+    #feature-2 {
+        margin: 30px 0;
+    }
+    #feature-2 > div {
+        width: 1000px;
+        margin: 0 auto;
+        padding: 50px 0;
+    }
+}
+
+/*****************************************************************************/
+/* ドキュメンテーション */
+/*****************************************************************************/
+#feature-3 {
+    margin: 30px 10px;
+    padding: 30px 0;
+}
+#feature-3 > div > * {
+    margin: 1em 0;
+}
+#feature-3 em {
+    margin: 25px auto;
+    font-size: 1.4em;
+    color: #003264;
+    font-weight: bold;
+    font-style: normal;
+}
+#feature-3 img {
+    display: block;
+    width: 100%;
+    margin: 50px auto;
+}
+@media only screen and (min-width: 769px) {
+    #feature-3 {
+        margin: 30px 0;
+    }
+    #feature-3 > div {
+        width: 1000px;
+        margin: 0 auto;
+        padding: 50px 0;
+    }
+    #feature-3 > img {
+        width: 1000px;
+    }
 }
