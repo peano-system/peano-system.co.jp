@@ -1132,3 +1132,35 @@ h2.heading hr {
         width: 1000px;
     }
 }
+
+/*****************************************************************************/
+/* サービス */
+/*****************************************************************************/
+#research > * {
+    margin: 1em auto;
+    padding: 3em;
+}
+@media only screen and (min-width: 769px) {
+    #research {
+        margin: 30px 0;
+    }
+    #research > * {
+        width: 1000px;
+        margin: 0 auto;
+        padding: 30px 0;
+    }
+}
+#security > * {
+    margin: 1em auto;
+    padding: 3em;
+}
+@media only screen and (min-width: 769px) {
+    #security {
+        margin: 30px 0;
+    }
+    #security > * {
+        width: 1000px;
+        margin: 0 auto;
+        padding: 30px 0;
+    }
+}
