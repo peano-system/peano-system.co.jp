@@ -780,8 +780,11 @@ h2.heading hr {
 /* 業務分析&数理モデリング */
 /*****************************************************************************/
 #feature-1 {
-    margin: 30px 10px;
-    padding: 30px 0;
+    margin-bottom: 3em;
+}
+#feature-1 > * {
+    padding-left: 10%;
+    padding-right: 10%;
 }
 #feature-1 > p {
     margin-bottom: 1em;
@@ -846,11 +849,10 @@ h2.heading hr {
     font-size: 1.8em;
     line-height: normal;
 }
+#feature-1 img {
+    width: 100%;
+}
 @media only screen and (min-width: 769px) {
-    #feature-1 {
-        width: 1000px;
-        margin: 0 auto;
-    }
     #feature-1 .col {
         float: left;
         width: 50%;
@@ -863,10 +865,9 @@ h2.heading hr {
 /*****************************************************************************/
 /* 数学者が開発するシステム */
 /*****************************************************************************/
-#feature-2 {
-    margin: 30px 10px;
-    padding: 30px 0;
+#feature-2 > * {
     background-color: rgba(149, 170, 170, 0.1);
+    padding: 2em 10%;
 }
 #feature-2 > div > * {
     margin: 1em 0;
@@ -897,22 +898,17 @@ h2.heading hr {
     color: #003264;
 }
 @media only screen and (min-width: 769px) {
-    #feature-2 {
-        margin: 30px 0;
-    }
-    #feature-2 > div {
+    #feature-2 > div > * {
         width: 1000px;
         margin: 0 auto;
-        padding: 50px 0;
     }
 }
 
 /*****************************************************************************/
 /* ドキュメンテーション */
 /*****************************************************************************/
-#feature-3 {
-    margin: 30px 10px;
-    padding: 30px 0;
+#feature-3 > * {
+    padding: 2em 10%;
 }
 #feature-3 > div > * {
     margin: 1em 0;
@@ -930,15 +926,11 @@ h2.heading hr {
     margin: 50px auto;
 }
 @media only screen and (min-width: 769px) {
-    #feature-3 {
-        margin: 30px 0;
-    }
-    #feature-3 > div {
+    #feature-3 > div > * {
         width: 1000px;
         margin: 0 auto;
-        padding: 50px 0;
     }
-    #feature-3 > img {
+    #feature-3 img {
         width: 1000px;
     }
 }
