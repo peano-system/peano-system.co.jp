@@ -1,94 +1,87 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]> <html class="ie6" lang="ja"> <![endif]-->
-<!--[if IE 7]> <html class="ie7" lang="ja"> <![endif]-->
-<!--[if IE 8]> <html class="ie8" lang="ja"> <![endif]-->
-<!--[if IE 9]> <html class="ie9" lang="ja"> <![endif]-->
-<!--[if gt IE 9]><!--> <html lang="ja"> <!--<![endif]-->
+<html lang="ja">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>名古屋のシステム開発会社|ぺあのしすてむ</title>
+<title>株式会社ぺあのしすてむ｜ぺあのしすてむの特徴</title>
 <meta name="keywords" content="名古屋,システム開発会社,Peano System Inc,Peano System">
 <meta name="description" content="名古屋のシステム開発会社､ぺあのしすてむ｡数学の力であなたの会社の問題を解決します｡">
-<link rel="stylesheet" href="base.css" type="text/css" media="screen">
-<link rel="stylesheet" href="layout.css" type="text/css" media="screen">
-<link rel="stylesheet" href="style.css" type="text/css" media="screen">
-
-<!--[if lt IE 9]>
-<script src="js/html5.js"></script>
-<script src="js/css3-mediaqueries.js"></script>
-<![endif]-->
-<script src="js/jquery1.7.2.min.js"></script>
+<link rel="stylesheet" href="css/reset.css" type="text/css">
+<link rel="stylesheet" href="css/layout.css" type="text/css">
+<script src="js/jquery-3.4.1.min.js"></script>
 <script src="js/script.js"></script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137788902-1"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'UA-137788902-1');
 </script>
 </head>
 
 <body>
 
-<header class="header">
-    <div class="headerIn" id="headArea">
-        <a class="header_logo" href="index.html">
-            <img src="img/logo.jpg" alt="会社ロゴ">
-            <h1 class="tit_h1">
-                名古屋のシステム開発会社
-            </h1>
-        </a>
-        <div class="header_info">
+<header>
+    <div>
+        <h1>
+            <div class="logo">
+                <a href="index.html"><img class="logo" src="img/logo.jpg" alt="株式会社ぺあのしすてむ"></a>
+            </div>
+            <div class="description">名古屋のシステム開発会社</div>
+        </h1>
+        <address>
+            <span class="link-tel">0561-32-8087</span>
             <a href="mailto:info@peano-system.jp"><img src="img/ico_mail.jpg" alt="メールでのお問い合わせ"></a>
-        </div><!-- / header_info -->
-    </div><!-- / headerIn -->
+        </address>
+    </div>
 </header>
-<nav class="mainNav">
-    <ul class="mainNav_list clearfix">
-        <li class="mainNav_item mainNav_item-home">
-            <a class="mainNav_link" href="index.html"><span>top</span>トップ</a>
+
+<nav>
+    <ul>
+        <li>
+            <a href="index.html"><span>top</span><span>トップ</span></a>
         </li>
-        <li class="mainNav_item">
-            <a class="mainNav_link" href="feature.html"><span>feature</span>ぺあのしすてむの特徴</a>
+        <li>
+            <a href="feature.html"><span>feature</span><span>ぺあのしすてむの特徴</span></a>
         </li>
-        <li class="mainNav_item">
-            <a class="mainNav_link" href="works.html"><span>works</span>事例</a>
+        <li>
+            <a href="works.html"><span>works</span><span>事例</span></a>
         </li>
-        <li class="mainNav_item">
-            <a class="mainNav_link" href="jobs.html"><span>jobs</span>人材採用</a>
+        <li>
+            <a href="jobs.html"><span>jobs</span><span>人材採用</span></a>
         </li>
-        <li class="mainNav_item">
-            <a class="mainNav_link" href="members.html"><span>members</span>メンバー</a>
+        <li>
+            <a href="members.html"><span>members</span><span>メンバー</span></a>
         </li>
-        <li class="mainNav_item">
-            <a class="mainNav_link" href="company.html"><span>company</span>会社概要</a>
+        <li>
+            <a href="company.html"><span>company</span><span>会社概要</span></a>
         </li>
     </ul>
+    <div class="btn-nav">
+        <img src="./img/sGnaviBtn.jpg" alt="NAVI">
+    </div>
 </nav>
 
-<div class="mainNavBtn">
-    <img src="./img/sGnaviBtn.jpg" alt="NAVI" />
-</div><!-- / mainNavBtn -->
-
-<div class="mainImg">
-    <div class="mainImgIn ">
-        <img src="./img/feature/img_main.jpg" alt="トップ" />
+<div class="img-main">
+    <div>
+        <img src="./img/feature/img_main.jpg" alt="" />
     </div>
-</div><!-- / mainImg -->
+</div>
 
-<main class="main">
-    <section class="bread">
-        <a class="breadlink" href="index.html">top</a> >> ぺあのしすてむの特徴
+<main class="feature">
+
+    <section class="breadcrumbs">
+        <a href="index.html">トップページ</a> &gt;&gt; ぺあのしすてむの特徴
     </section>
-    <section class="contIn">
-        <h2 class="tit_h2">
-            <img src="img/feature/img_feature_txt01.png" alt=""><br />業務のボトルネックを数学の力で解決します
+
+    <section id="resolve">
+        <h2 class="heading">
+            <span>We resolve your business bottlenecks with mathmatics</span>
+            <hr>
+            <span>業務のボトルネックを数学の力で解決します</span>
         </h2>
-        <section class="box box-w600">
-            <p class="mb20">
+        <div>
+            <p>
                 今まで人の手でやらないと無理だと思われていた作業や煩雑な業務｡<br>
                 ノウハウを持っているのは人間で、できる人が限られている。<br>
                 システム化しようとチャレンジしたけど無理だと言われた｡
@@ -97,137 +90,134 @@
                 そのような会社の中でボトルネックとなっている業務を､今までのシステム会社とは違ったアプローチの方法で､解決策を探ります｡<br>
                 それを可能にするのが､数学をベースにした業務分析＆数理モデリングです。
             </p>
-        </section>
-    </section><!-- / contIn -->
+        </div>
+    </section>
 
-    <section class="cont">
-        <img src="img/img_top_sub.jpg" alt="">
-    </section><!-- / cont -->
+    <section id="our-solution">
+        <img src="img/img_top_sub.jpg" alt="ぺあのしすてむがあなたの問題を解決します">
+    </section>
 
-    <section class="contIn">
-        <h2 class="tit_h2" id="analysis">
-            <img src="img/txt_top_02.jpg" alt=""><br />ぺあのしすてむ<spna class="txt_num">3</spna>つの特徴
+    <section id="feature">
+        <h2 class="heading">
+            <span>features of Peano System</span>
+            <hr>
+            <span>ぺあのしすてむの<spna class="txt-num">3</spna>つの特徴</span>
         </h2>
-        <h3 class="tit_h3">
-            <span class="txt_num02">1.</span><span class="txt_uline">業務分析&数理モデリング</span>
-        </h3>
+    </section>
 
-        <div class="ft_sec01"><div class="ft_sec_re">
-        <p>
-            できる人が限られている業務を分析して数理モデル（シミュレーションの枠組み）を構築します。以下は、シンプルなシミュレーションの例です。
-        </p>
-        <section class="box">
-            <div class="box_20">
-                <p class="txt_20">1.対象を測定します｡</p>
-                <p class="txt_20">2.測定値に基づいてシステムを制御します｡</p>
-                <p class="txt_20">3.制御の結果を対象にフィードバックします｡</p>
-                <p class="txt_20">4.対象が変化します｡</p>
-                <p class="mt50">1～4がループすることがあります｡</p>
-            </div><!-- / box_20 -->
-            <div class="box_20">
-                <img src="img/feature/img_feature_01.jpg" alt="">
-            </div><!-- / box_20 -->
-        </section><!-- / box -->
-        <section class="box">
-            <div class="box_col">
-                <p class="tit_h4">
-                    <img src="img/feature/img_feature_txt06.png" alt=""><br>
-                    私たちのメソッド
-                </p>
-                <p class="txt_horiz">task</p>
-                <p class="txt_w90">アルゴリズムを記述する上で、何を測定すればよいのかは重要なテーマです。<br>
-                意味のある入力が揃わなければアルゴリズムは記述できません。<br>
-                シミュレーションを実現するために、数理的な見地から測定すべき値を特定します。</p>
-                <p class="txt_horiz">point</p>
-                <p class="txt_w90">何をフィードバックすればよいかも重要です。<br>
-                位置、角度や強さなど、対象を制御するために必要な出力の値を特定します。</p>
-                <p class="txt_horiz">solution</p>
-                <p class="txt_w90">最後に、測定値とフィードバック値を入出力としてアルゴリズム記述します。<br>
-                取得した測定値から必要なフィードバック値を与えるような制御の原理を数学的に解明し、テキストや数式によってアルゴリズムを記述します。</p>
-            </div>
-        </section><!-- / box -->
-        </div></div>
-    </section><!-- / contIn -->
-
-    <section class="cont-col" id="math">
-        <div class="contIn">
-            <h3 class="tit_h3">
-                <span class="txt_num02">2.</span><span class="txt_uline">数学者が開発するシステム</span>
+    <section id="feature-1" class="anchor">
+        <div>
+            <h3 class="heading">
+                <span class="txt-num2">1.</span><span>業務分析&数理モデリング</span>
             </h3>
+            <p>
+                できる人が限られている業務を分析して数理モデル（シミュレーションの枠組み）を構築します。以下は、シンプルなシミュレーションの例です。
+            </p>
+            <div class="row">
+                <div class="col">
+                    <p>1.対象を測定します｡</p>
+                    <p>2.測定値に基づいてシステムを制御します｡</p>
+                    <p>3.制御の結果を対象にフィードバックします｡</p>
+                    <p>4.対象が変化します｡</p>
+                    <p>1～4を回しながら現象を解析してゆきます｡</p>
+                </div>
+                <div class="col">
+                    <img src="img/feature/img_feature_01.jpg" alt="シミュレーションの例">
+                </div>
+            </div>
+        </div>
+        <div class="method">
+            <h4>
+                <span>our method</span>
+                <br>
+                <span>私たちのメソッド</span>
+            </h4>
+            <dl>
+                <dt>task</dt>
+                <dd>アルゴリズムを記述する上で、何を測定すればよいのかは重要なテーマです。</dd>
+                <dd>意味のある入力が揃わなければアルゴリズムは記述できません。</dd>
+                <dd>シミュレーションを実現するために、数理的な見地から測定すべき値を特定します。</dd>
+                <dt>point</dt>
+                <dd>何をフィードバックすればよいかも重要です。</dd>
+                <dd>位置、角度や強さなど、対象を制御するために必要な出力の値を特定します。</dd>
+                <dt>solution</dt>
+                <dd>最後に、測定値とフィードバック値を入出力としてアルゴリズム記述します。</dd>
+                <dd>取得した測定値から必要なフィードバック値を与えるような制御の原理を数学的に解明し、テキストや数式によってアルゴリズムを記述します。</dd>
+            </dl>
+        </div>
+    </section>
 
-            <div class="ft_sec02"><div class="ft_sec_re">
+    <section id="feature-2" class="anchor">
+        <div>
+            <h3 class="heading">
+                <span class="txt-num2">2.</span><span>数学者が開発するシステム</span>
+            </h3>
             <p>
                 当社では、業務分析や数理モデリングはもちろん、アルゴリズムの実現やデータ収集のためのソフトウェアも数学者が開発します。
             </p>
-            <p class="txt_st">
-                業務分析から、データ収集、ドキュメントに記述されたアルゴリズムを実現して自動化するまで、一貫したプロフェッショナルサービスを提供いたします。
+            <p>
+                <em>業務分析から、データ収集、ドキュメントに記述されたアルゴリズムを実現して自動化するまで、一貫したプロフェッショナルサービスを提供いたします。</em>
             </p>
-            <div class="mt60 alignCenter">
-                <a class="txt_st" href="members.html">
-                    <img src="img/feature/img_feature_txt07.png" alt=""><br>
-                    当社に所属する優秀な人材についてご覧ください。>>
+            <h4>Team Members</h4>
+            <p>
+                <em><a href="members.html">当社に所属する優秀な人材についてご覧ください。&gt;&gt;</a></em>
+            </p>
+        </div>
+    </section>
+
+    <section id="feature-3" class="anchor">
+        <div>
+            <h3 class="heading">
+                <span class="txt-num2">3.</span><span>ドキュメンテーション</span>
+            </h3>
+            <p>
+                当社では、業務分析や数理モデリングの結果を正確でわかりやすくドキュメント化します。<br>
+                ドキュメンテーションは、プロジェクトの成果物や中間生成物として重要な役割を持ちます。
+            </p>
+            <p>
+                <em>正確でわかりやすいドキュメントは、開発プロジェクトに関わる技術者やお客様の間で共有する知恵となります。<em>
+            </p>
+            <div>
+                <img src="img/feature/img_feature_02.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<div><img id="btn-scroll" src="./img/btnPagetop.png" alt="トップに戻る" /></div>
+
+<footer>
+    <div>
+        <div>
+            <div class="logo"><img src="img/logo_footer.jpg" alt="logo"></div>
+            <div class="mail">
+                <a href="mailto:info@peano-system.jp">
+                    <img src="img/ico_mail_footer.jpg" alt="電子メールはこちら">
                 </a>
             </div>
-            </div></div>
-        </div><!-- / contIn -->
-    </section><!-- / cont-col -->
-
-    <section class="contIn" id="doc">
-        <h3 class="tit_h3">
-            <span class="txt_num02">3.</span><span class="txt_uline">ドキュメンテーション</span>
-        </h3>
-
-        <div class="ft_sec03"><div class="ft_sec_re">
-        <p>
-            当社では、業務分析や数理モデリングの結果を正確でわかりやすくドキュメント化します。<br>
-            ドキュメンテーションは、プロジェクトの成果物や中間生成物として重要な役割を持ちます。
-        </p>
-        <p class="txt_st">
-            正確でわかりやすいドキュメントは、開発プロジェクトに関わる技術者やお客様の間で共有する知恵となります。
-        </p>
-        <div>
-            <img src="img/feature/img_feature_02.jpg" alt="">
         </div>
-        </div></div>
-    </section><!-- / contIn -->
-
-</main><!-- / main -->
-
-<div id="areaPagetop"><img src="./img/btnPagetop.png" alt="トップに戻る" /></div>
-
-<footer class="ft">
-    <section class="ftIn">
-        <div class="ftIn_hd clearfix">
-            <div class="ftIn_logo">
-                <img src="img/logo_footer.jpg" alt="logo">
-            </div>
-            <div class="ftIn_ico">
-                <a href="mailto:info@peano-system.jp"><img src="img/ico_mail_footer.jpg" alt=""></a>
-            </div>
-        </div><!-- / ftIn_hd -->
-        <div class="ftIn_bd clearfix">
-            <ul class="ftlist">
-                <li class="ftitem">
-                    <a href="index.html">トップ</a>
-                </li>
-                <li class="ftitem">
-                    <a href="feature.html">ぺあのしすてむの特徴</a>
-                </li>
-                <li class="ftitem">
-                    <a href="works.html">事例</a>
-                </li>
-                <li class="ftitem">
-                    <a href="jobs.html">人材採用</a>
-                </li>
-                <li class="ftitem">
-                    <a href="members.html">メンバー</a>
-                </li>
-                <li class="ftitem">
-                    <a href="company.html">会社概要</a>
-                </li>
-            </ul>
-        </div><!-- / ftIn_bd -->
-    </section><!-- / ftIn -->
-</footer><!-- / ft -->
+        <ul>
+            <li>
+                <a href="index.html">トップ</a>
+            </li>
+            <li>
+                <a href="feature.html">ぺあのしすてむの特徴</a>
+            </li>
+            <li>
+                <a href="works.html">事例</a>
+            </li>
+            <li>
+                <a href="jobs.html">人材採用</a>
+            </li>
+            <li>
+                <a href="members.html">メンバー</a>
+            </li>
+            <li>
+                <a href="company.html">会社概要</a>
+            </li>
+        </ul>
+    </div>
+</footer>
 </body>
 </html>
