@@ -782,6 +782,9 @@ h2.heading hr {
 #feature-1 {
     margin-bottom: 3em;
 }
+#feature-1 > div > * {
+    margin: 1em 0;
+}
 #feature-1 > * {
     padding-left: 10%;
     padding-right: 10%;
