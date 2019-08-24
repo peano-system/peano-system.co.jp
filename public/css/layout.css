@@ -533,6 +533,9 @@ h2.heading hr {
         width: 33%;
         padding: 10px;
     }
+    #our-business > :last-child {
+        clear: both;
+    }
 }
 
 /******************************************************************************/
