@@ -1039,3 +1039,96 @@ h2.heading hr {
         width: 1000px;
     }
 }
+
+/*****************************************************************************/
+/* 業務の流れ */
+/*****************************************************************************/
+#flow img {
+    display: block;
+    width: 100%;
+    margin: 50px auto;
+}
+@media only screen and (min-width: 769px) {
+    #flow img {
+        width: 1000px;
+    }
+}
+
+/*****************************************************************************/
+/* 開発 */
+/*****************************************************************************/
+#development {
+    background-color: rgba(149, 170, 170, 0.1);
+}
+#development > * {
+    margin: 1em auto;
+    padding: 3em;
+}
+#development h3 {
+    color: #333;
+    font-size: 2.5em;
+    margin: 1em 0;
+}
+#development .txt-num2 {
+    padding-right: 15px;
+    color: #003264;
+    font-size: 3em;
+    font-style: italic;
+    vertical-align: -0.2em;
+}
+#development h3 > :last-child {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+@media only screen and (min-width: 769px) {
+    #development {
+        margin: 30px 0;
+    }
+    #development > * {
+        width: 1000px;
+        margin: 0 auto;
+        padding: 30px 0;
+    }
+    #development img {
+        margin-top: 1em;
+        width: 1000px;
+    }
+}
+
+/*****************************************************************************/
+/* 応用例 */
+/*****************************************************************************/
+#applications > * {
+    margin: 1em auto;
+    padding: 3em;
+}
+#applications h3 {
+    color: #333;
+    font-size: 2.5em;
+    margin: 1em 0;
+}
+#applications .txt-num2 {
+    padding-right: 15px;
+    color: #003264;
+    font-size: 3em;
+    font-style: italic;
+    vertical-align: -0.2em;
+}
+#applications h3 > :last-child {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+@media only screen and (min-width: 769px) {
+    #applications {
+        margin: 30px 0;
+    }
+    #applications > * {
+        width: 1000px;
+        margin: 0 auto;
+        padding: 30px 0;
+    }
+    #applications img {
+        margin-top: 1em;
+        width: 1000px;
+    }
+}
