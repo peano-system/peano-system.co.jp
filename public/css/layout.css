@@ -1159,3 +1159,38 @@ h2.heading hr {
         padding: 30px 0;
     }
 }
+
+/******************************************************************************/
+/* 廃業についてのお知らせ */
+/******************************************************************************/
+#announcement {
+    clear: both;
+    background-color: rgba(149, 170, 170, 0.1);
+    padding: 10px 0;
+}
+#announcement > div {
+    margin: 50px auto;
+    width: 70%;
+}
+#announcement .box {
+    margin-top: 3em;
+}
+#announcement .box p,
+#announcement .box div
+{
+    font-size: 1.2rem;
+    line-height: 150%;
+}
+#announcement .box p {
+    margin-top: 1em;
+    text-indent: 1em;
+}
+#announcement .signature {
+    margin-top: 2em;
+    padding-left: 10%;
+}
+@media only screen and (min-width: 769px) {
+    #announcement .signature {
+        padding-left: 50%;
+    }
+}
